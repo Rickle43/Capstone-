@@ -1,0 +1,53 @@
+/* Styling for the Cart component */
+.cart {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .cart h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cart-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .cart-info {
+    flex: 1;
+  }
+  
+  .cart-title {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .cart-price {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c82333;
+  }

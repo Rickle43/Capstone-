@@ -1,0 +1,28 @@
+/* Navbar styles */
+
+/* Adjust margin for the Welcome text */
+.welcome-text {
+    margin-right: 20px; /* Adjust as needed */
+    margin-left: 375px;
+  }
+  
+  /* Style for Home and Cart buttons */
+  .home-button,
+  .cart-button {
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 10px; /* Adjust as needed */
+  }
+  
+  /* Style for Logout button */
+  .logout-button {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  /* Style for Login button */
+  .login-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  

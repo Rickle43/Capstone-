@@ -1,0 +1,7 @@
+/* Add a class to style the product image */
+.product-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    max-height: 400px; /* Set the maximum height as per your requirement */
+    display: block; /* Remove any inline spacing */
+    margin: 0 auto; /* Center the image horizontally */
+  }

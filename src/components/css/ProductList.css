@@ -1,0 +1,83 @@
+/* Styling for the product grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Styling for individual product containers */
+  .product-card {
+    width: 200px;
+    height: 400px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+    display: grid;
+    grid-template-areas:
+      "image"
+      "title"
+      "description"
+      "price"
+      "button";
+  }
+  
+  /* Styling for product images */
+  .product-image {
+    grid-area: image;
+    width: 100%; /* Force the image width to fill the grid area */
+    height: 100%; /* Force the image height to fill the grid area */
+    object-fit: contain; /* Maintain aspect ratio and fit the entire image within the area */
+    /* Add additional styling if necessary */
+  }
+  
+  /* Styling for product title */
+  .product-title {
+    grid-area: title;
+    font-size: 10px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* Add additional styling if necessary */
+  }
+  
+  /* Styling for product description */
+  .product-description {
+    grid-area: description;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Add additional styling if necessary */
+  }
+  
+  /* Styling for product price */
+  .product-price {
+    grid-area: price;
+    font-size: 10px;
+    font-weight: bold;
+    /* Add additional styling if necessary */
+  }
+  
+  /* Styling for the "Add to Cart" button */
+  .add-to-cart-button {
+    grid-area: button;
+    align-self: end;
+    /* Add additional styling if necessary */
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  /* Right-align the filter controls */
+.filter-controls {
+    display: flex;
+    justify-content: flex-end; /* Horizontally align to the right */
+    margin-bottom: 20px; /* Add some spacing from the products */
+  }
+  
+  /* Adjust individual select elements */
+  .filter-controls select {
+    margin-left: 5px; /* Add space between the selects */
+  }
